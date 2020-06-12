@@ -1,0 +1,28 @@
+O projeto foi feito em Laravel
+
+as configurações de banco que estou usando eh do meu banco na Nuvem
+Caso queira mudar as configurações va em:
+
+
+config/database.php e mude a conexao com o banco
+
+//Nome do meu Banco
+DATABASE_NAME = x10795mnx91gg6n6
+
+
+rode o comando composer install depois de clonar o repositório
+npm install
+
+
+php artisan migrate
+caso der erro rode
+
+php artisan migrate:fresh
+
+php artisan db:seed
+
+php artisan serve e eh so logar com o usuário:
+
+
+user:lexpadm@gmail.com
+senha:password
